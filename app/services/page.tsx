@@ -54,9 +54,9 @@ export default function ServicesPage() {
   
   {/* Updated Animated Geometric Elements with more red tones */}
   <div className="absolute inset-0 z-10">
-    <div className="absolute top-20 left-10 w-64 h-64 bg-red-700/30 rounded-full blur-3xl animate-pulse"></div>
-    <div className="absolute bottom-20 right-10 w-80 h-80 bg-red-900/30 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-    <div className="absolute top-1/3 right-1/4 w-40 h-40 bg-red-600/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+    <div className="absolute top-20 left-10 w-32 sm:w-64 h-32 sm:h-64 bg-red-700/30 rounded-full blur-3xl animate-pulse"></div>
+    <div className="absolute bottom-20 right-10 w-40 sm:w-80 h-40 sm:h-80 bg-red-900/30 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+    <div className="absolute top-1/3 right-1/4 w-20 sm:w-40 h-20 sm:h-40 bg-red-600/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
   </div>
   
   {/* Floating Particles - updated to red tint */}
@@ -76,19 +76,19 @@ export default function ServicesPage() {
   </div>
   
   {/* Content Container */}
-  <div className="relative z-30 container mx-auto px-4 md:px-6 pt-40 pb-32 flex flex-col items-center justify-center min-h-[80vh]">
+  <div className="relative z-30 container mx-auto px-4 md:px-6 pt-20 sm:pt-28 md:pt-40 pb-20 sm:pb-24 md:pb-32 flex flex-col items-center justify-center min-h-[80vh]">
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className="relative"
+      className="relative w-full"
     >
-      <span className="block text-sm md:text-base uppercase tracking-widest text-red-400 font-medium mb-4 text-center">
+      <span className="block text-xs sm:text-sm md:text-base uppercase tracking-widest text-red-400 font-medium mb-2 sm:mb-4 text-center">
         Professional Auto Care
       </span>
       
       <div className="relative">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white text-center mb-6 leading-tight">
+        <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-white text-center mb-4 sm:mb-6 leading-tight">
           Our <span className="relative inline-block">
             <span className="relative z-10">Services</span>
           </span>
@@ -99,7 +99,7 @@ export default function ServicesPage() {
           initial={{ width: 0 }}
           animate={{ width: "100%" }}
           transition={{ delay: 0.5, duration: 1.5 }}
-          className="h-px bg-gradient-to-r from-transparent via-red-600 to-transparent max-w-xl mx-auto mb-8"
+          className="h-px bg-gradient-to-r from-transparent via-red-600 to-transparent max-w-xs sm:max-w-md md:max-w-xl mx-auto mb-4 sm:mb-8"
         ></motion.div>
       </div>
       
@@ -107,7 +107,7 @@ export default function ServicesPage() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 1 }}
-        className="text-xl md:text-2xl text-white/90 text-center max-w-3xl mx-auto mb-12 leading-relaxed"
+        className="text-base sm:text-xl md:text-2xl text-white/90 text-center max-w-xs sm:max-w-xl md:max-w-3xl mx-auto mb-6 sm:mb-8 md:mb-12 leading-relaxed"
       >
         Comprehensive automotive services to keep your vehicle in peak condition
       </motion.p>
@@ -116,17 +116,17 @@ export default function ServicesPage() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2, duration: 0.8 }}
-        className="flex flex-col sm:flex-row gap-5 justify-center"
+        className="flex flex-col xs:flex-row gap-3 sm:gap-5 justify-center"
       >
         {/* Updated button colors to match the red theme */}
         <Button
           size="lg"
-          className="group relative px-8 py-4 bg-red-800 hover:bg-red-900 text-white font-medium rounded-lg overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+          className="group relative px-4 sm:px-8 py-3 sm:py-4 bg-red-800 hover:bg-red-900 text-white text-sm sm:text-base font-medium rounded-lg overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-lg w-full xs:w-auto"
           onClick={() => setIsBookingModalOpen(true)}
         >
           <span className="relative z-10 flex items-center justify-center">
             Book a Service
-            <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+            <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 transition-transform duration-300 group-hover:translate-x-1" />
           </span>
           <span className="absolute inset-0 bg-gradient-to-r from-red-700 to-red-900 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></span>
         </Button>
@@ -134,13 +134,13 @@ export default function ServicesPage() {
         <Button
           size="lg" 
           variant="outline"
-          className="group relative px-8 py-4 bg-transparent border-2 border-red-500/30 hover:border-red-500/80 text-white font-medium rounded-lg overflow-hidden transition-all duration-300 backdrop-blur-sm"
+          className="group relative px-4 sm:px-8 py-3 sm:py-4 bg-transparent border-2 border-red-500/30 hover:border-red-500/80 text-white text-sm sm:text-base font-medium rounded-lg overflow-hidden transition-all duration-300 backdrop-blur-sm w-full xs:w-auto"
           asChild
         >
           <Link href="/pricing">
             <span className="relative z-10 flex items-center justify-center">
               View Pricing
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+              <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 transition-transform duration-300 group-hover:translate-x-1" />
             </span>
           </Link>
         </Button>
@@ -152,42 +152,42 @@ export default function ServicesPage() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 2, duration: 1 }}
-      className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
+      className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center hidden sm:flex"
     >
-      <span className="text-white/70 text-sm mb-2">Scroll to explore</span>
+      <span className="text-white/70 text-xs sm:text-sm mb-2">Scroll to explore</span>
       <motion.div
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
-        className="w-6 h-10 border-2 border-red-500/30 rounded-full flex justify-center pt-1"
+        className="w-5 sm:w-6 h-8 sm:h-10 border-2 border-red-500/30 rounded-full flex justify-center pt-1"
       >
         <motion.div
           animate={{ y: [0, 12, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="w-1.5 h-1.5 bg-red-600 rounded-full"
+          className="w-1 sm:w-1.5 h-1 sm:h-1.5 bg-red-600 rounded-full"
         ></motion.div>
       </motion.div>
     </motion.div>
   </div>
   
   {/* Stats Bar - updated to match the red theme */}
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-red-950/90 to-red-900/90 backdrop-blur-md z-30 py-6 border-t border-red-500/20">
+  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-red-950/90 to-red-900/90 backdrop-blur-md z-30 py-4 sm:py-6 border-t border-red-500/20">
     <div className="container mx-auto px-4">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
         <div className="text-center">
-          <div className="text-3xl md:text-4xl font-bold text-white mb-1">6+</div>
-          <div className="text-white/70 text-sm">Service Types</div>
+          <div className="text-xl sm:text-3xl md:text-4xl font-bold text-white mb-0 sm:mb-1">6+</div>
+          <div className="text-white/70 text-xs sm:text-sm">Service Types</div>
         </div>
         <div className="text-center">
-          <div className="text-3xl md:text-4xl font-bold text-white mb-1">10k+</div>
-          <div className="text-white/70 text-sm">Vehicles Serviced</div>
+          <div className="text-xl sm:text-3xl md:text-4xl font-bold text-white mb-0 sm:mb-1">10k+</div>
+          <div className="text-white/70 text-xs sm:text-sm">Vehicles Serviced</div>
         </div>
         <div className="text-center">
-          <div className="text-3xl md:text-4xl font-bold text-white mb-1">100%</div>
-          <div className="text-white/70 text-sm">Satisfaction</div>
+          <div className="text-xl sm:text-3xl md:text-4xl font-bold text-white mb-0 sm:mb-1">100%</div>
+          <div className="text-white/70 text-xs sm:text-sm">Satisfaction</div>
         </div>
         <div className="text-center">
-          <div className="text-3xl md:text-4xl font-bold text-white mb-1">24h</div>
-          <div className="text-white/70 text-sm">Fast Turnaround</div>
+          <div className="text-xl sm:text-3xl md:text-4xl font-bold text-white mb-0 sm:mb-1">24h</div>
+          <div className="text-white/70 text-xs sm:text-sm">Fast Turnaround</div>
         </div>
       </div>
     </div>
@@ -203,6 +203,16 @@ export default function ServicesPage() {
       50% {
         transform: translateY(-20px) scale(1.5);
         opacity: 0.1;
+      }
+    }
+    
+    /* Add a custom breakpoint for extra small screens */
+    @media (min-width: 480px) {
+      .xs\\:flex-row {
+        flex-direction: row;
+      }
+      .xs\\:w-auto {
+        width: auto;
       }
     }
   `}</style>
