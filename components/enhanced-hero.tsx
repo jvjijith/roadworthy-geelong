@@ -92,7 +92,7 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none text-white">
                   <span className="block">{slides[activeSlide].title}</span>
                   <span className="block text-6xl md:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-white to-red-500">
-                    Roadworthy Geelong
+                    GCS Autocare Grovedale
                   </span>
                 </h1>
                 <p className="max-w-[600px] text-white/90 md:text-xl">{slides[activeSlide].subtitle}</p>

@@ -607,7 +607,7 @@ export default function PricingPage() {
             <ScrollReveal>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">Ready to Book Your Service?</h2>
               <p className="text-xl text-white/80 mb-8">
-                Schedule your appointment today and experience the Roadworthy Geelong difference.
+                Schedule your appointment today and experience the GCS Autocare Grovedale difference.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
@@ -617,7 +617,7 @@ export default function PricingPage() {
                 >
                   Book Now
                 </Button>
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10" asChild>
+                <Button size="lg" variant="outline" className="text-white border-white bg-white/10 hover:bg-white/10" asChild>
                   <Link href="/contact">Contact Us</Link>
                 </Button>
               </div>

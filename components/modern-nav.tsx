@@ -111,7 +111,7 @@ export function ModernNav() {
             >
               <Image
                 src="/images/logo.png"
-                alt="Roadworthy Geelong Logo"
+                alt="GCS Autocare Grovedale Logo"
                 width={40}
                 height={40}
                 className="w-8 h-8 object-contain"
@@ -124,7 +124,7 @@ export function ModernNav() {
                   isScrolled ? "text-red-900" : "text-white",
                 )}
               >
-                Roadworthy
+                GCS Autocare
               </span>
               <span
                 className={cn(
@@ -132,7 +132,7 @@ export function ModernNav() {
                   isScrolled ? "text-gray-600" : "text-white/80",
                 )}
               >
-                Geelong
+                Grovedale
               </span>
             </div>
           </Link>

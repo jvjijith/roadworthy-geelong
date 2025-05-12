@@ -436,7 +436,7 @@ export default function ContactPage() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Roadworthy Geelong Location"
+          title="GCS Autocare Grovedale Location"
         ></iframe>
         <div className="absolute top-4 left-4 bg-white p-6 rounded-lg shadow-xl max-w-sm backdrop-blur-sm bg-white/90 border border-white/20">
           <h3 className="font-bold text-red-900 text-xl mb-4 flex items-center">
@@ -476,13 +476,13 @@ export default function ContactPage() {
                 <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center p-2">
                   <Image
                     src="/images/logo.png"
-                    alt="Roadworthy Geelong Logo"
+                    alt="GCS Autocare Grovedale Logo"
                     width={40}
                     height={40}
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <span className="text-xl font-bold">Roadworthy Geelong</span>
+                <span className="text-xl font-bold">GCS Autocare Grovedale</span>
               </div>
               <p className="text-gray-400 mb-6">
                 Professional vehicle inspections and mechanical services with a commitment to quality and customer
@@ -624,7 +624,7 @@ export default function ContactPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400">© {new Date().getFullYear()} Roadworthy Geelong. All rights reserved.</p>
+            <p className="text-gray-400">© {new Date().getFullYear()} GCS Autocare Grovedale. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors duration-300">
                 Privacy Policy

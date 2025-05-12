@@ -33,14 +33,14 @@ export function FloatingNav() {
     >
       <div className="container px-4 md:px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/images/logo.png" alt="Roadworthy Geelong Logo" width={40} height={40} className="w-10 h-10" />
+          <Image src="/images/logo.png" alt="GCS Autocare Grovedale Logo" width={40} height={40} className="w-10 h-10" />
           <span
             className={cn(
               "font-bold text-xl transition-colors duration-300",
               isScrolled ? "text-red-900" : "text-white",
             )}
           >
-            Roadworthy Geelong
+            GCS Autocare Grovedale
           </span>
         </Link>
 
@@ -117,12 +117,12 @@ export function FloatingNav() {
                 <Link href="/" className="flex items-center gap-2">
                   <Image
                     src="/images/logo.png"
-                    alt="Roadworthy Geelong Logo"
+                    alt="GCS Autocare Grovedale Logo"
                     width={40}
                     height={40}
                     className="w-10 h-10"
                   />
-                  <span className="font-bold text-xl text-red-900">Roadworthy Geelong</span>
+                  <span className="font-bold text-xl text-red-900">GCS Autocare Grovedale</span>
                 </Link>
               </div>
               <nav className="flex flex-col gap-4 py-8">

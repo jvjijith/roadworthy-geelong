@@ -217,7 +217,7 @@ export default function ServicesPage() {
                 Comprehensive Automotive Services
               </h2>
               <p className="text-gray-600">
-                At Roadworthy Geelong, we offer a wide range of automotive services to keep your vehicle running
+                At GCS Autocare Grovedale, we offer a wide range of automotive services to keep your vehicle running
                 smoothly and safely.
               </p>
             </div>
@@ -605,7 +605,7 @@ export default function ServicesPage() {
             <ScrollReveal>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">Ready to Book Your Service?</h2>
               <p className="text-xl text-white/80 mb-8">
-                Schedule your appointment today and experience the Roadworthy Geelong difference.
+                Schedule your appointment today and experience the GCS Autocare Grovedale difference.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
@@ -615,7 +615,7 @@ export default function ServicesPage() {
                 >
                   Book Now
                 </Button>
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10" asChild>
+                <Button size="lg" variant="outline" className="text-white border-white bg-white/10 hover:bg-white/10" asChild>
                   <Link href="/contact">Contact Us</Link>
                 </Button>
               </div>
@@ -634,13 +634,13 @@ export default function ServicesPage() {
                 <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center p-2">
                   <Image
                     src="/images/logo.png"
-                    alt="Roadworthy Geelong Logo"
+                    alt="GCS Autocare Grovedale Logo"
                     width={40}
                     height={40}
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <span className="text-xl font-bold">Roadworthy Geelong</span>
+                <span className="text-xl font-bold">GCS Autocare Grovedale</span>
               </div>
               <p className="text-gray-400 mb-6">
                 Professional vehicle inspections and mechanical services with a commitment to quality and customer
@@ -820,7 +820,7 @@ export default function ServicesPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400">© {new Date().getFullYear()} Roadworthy Geelong. All rights reserved.</p>
+            <p className="text-gray-400">© {new Date().getFullYear()} GCS Autocare Grovedale. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors duration-300">
                 Privacy Policy
