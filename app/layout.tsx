@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'GCS',
-  description: 'Created with v0',
+  description: 'GCS',
   generator: 'v0.dev',
 }
 
