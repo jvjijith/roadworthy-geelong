@@ -73,8 +73,8 @@ export default function AboutPage() {
       <div className="relative">
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white text-center mb-6 leading-tight">
           About <span className="relative inline-block">
-            <span className="relative z-10">Roadworthy</span>
-          </span> Geelong
+            <span className="relative z-10">GCS Autocare</span>
+          </span> Grovedale
         </h1>
         
         {/* Updated divider with stronger red */}
