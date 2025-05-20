@@ -53,7 +53,7 @@ export function ModernNav() {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Services", path: "/services" },
-    { name: "Pricing", path: "/pricing" },
+    { name: "Roadworthy Inspections", path: "/roadworthy-inspections" },
     { name: "Contact", path: "/contact" },
   ]
 
@@ -174,12 +174,8 @@ export function ModernNav() {
             <button
               onClick={toggleMenu}
               className={cn(
-                "lg:hidden z-[100] w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-full transition-colors duration-300 shadow-md",
-                isOpen
-                  ? "bg-white text-red-900"
-                  : isScrolled
-                    ? "bg-red-900 text-white"
-                    : "bg-white text-red-900",
+                "lg:hidden  w-10 h-10 sm:w-10 sm:h-10 flex items-center justify-center rounded-full transition-colors duration-300 shadow-md",
+                isOpen ? "bg-white text-red-900" : isScrolled ? "bg-red-900 text-white" : "bg-white text-red-900",
               )}
               aria-label="Toggle menu"
             >
@@ -216,11 +212,7 @@ export function ModernNav() {
                 </motion.div>
               ))}
               <motion.div variants={itemVariants} className="mt-6">
-                <Button 
-                  size="lg" 
-                  className="bg-white text-red-900 hover:bg-gray-100" 
-                  onClick={openBookingModal}
-                >
+                <Button size="lg" className="bg-white text-red-900 hover:bg-gray-100" onClick={openBookingModal}>
                   Book Now
                 </Button>
               </motion.div>
@@ -235,10 +227,10 @@ export function ModernNav() {
                   03 5270 5676
                 </a>
                 <a
-                  href="mailto:info@roadworthygeelong.com.au"
+                  href="mailto:gcsautocaregrovedale@gmail.com"
                   className="hover:text-white transition-colors duration-300"
                 >
-                  info@roadworthygeelong.com.au
+                  gcsautocaregrovedale@gmail.com
                 </a>
               </div>
               <p className="text-sm">4/32 Essington St, Grovedale VIC 3216</p>

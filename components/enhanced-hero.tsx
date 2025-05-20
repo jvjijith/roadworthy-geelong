@@ -37,6 +37,11 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
       subtitle: "Expert maintenance for electric vehicles",
       image: "/images/hero-3.jpg",
     },
+    {
+      title: "Tyre Replacement & Wheel Balancing",
+      subtitle: "Professional tyre services for optimal performance",
+      image: "/images/tyre-service.png",
+    },
   ]
 
   useEffect(() => {
@@ -92,7 +97,7 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none text-white">
                   <span className="block">{slides[activeSlide].title}</span>
                   <span className="block text-6xl md:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-white to-red-500">
-                    GCS Autocare Grovedale
+                    GCS Autocare
                   </span>
                 </h1>
                 <p className="max-w-[600px] text-white/90 md:text-xl">{slides[activeSlide].subtitle}</p>
@@ -114,7 +119,12 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
                   </span>
                   <span className="absolute inset-0 bg-gradient-to-r from-red-800 to-red-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
                 </Button>
-                <Button size="lg" variant="outline" className="text-white border-white bg-white/10 hover:bg-white/10 group" asChild>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-white border-white bg-white/10 hover:bg-white/10 group"
+                  asChild
+                >
                   <a href="/services">
                     <span className="flex items-center">
                       Our Services
@@ -241,7 +251,7 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
               </div>
               <div>
                 <p className="text-xs text-white/70">Opening Hours</p>
-                <span>Mon-Fri: 8am-5pm | Sat: 8am-12pm</span>
+                <span>Mon-Fri: 9:00 AM - 5:00 PM | Sat: 9:00 AM - 5:00 PM</span>
               </div>
             </div>
           </div>
