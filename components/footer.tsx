@@ -263,7 +263,7 @@ export default function Footer() {
                   <circle cx="12" cy="12" r="10"></circle>
                   <polyline points="12 6 12 12 16 14"></polyline>
                 </svg>
-                <span>Mon-Fri: 8am-5pm | Sat: 8am-12pm</span>
+                <span>Mon-Fri: 9am-5pm | Sat: 9am-2pm</span>
               </li>
             </ul>
           </div>
@@ -271,13 +271,24 @@ export default function Footer() {
         
         <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm sm:text-base">© {new Date().getFullYear()} GCS Autocare Grovedale. All rights reserved.</p>
-          <div className="flex gap-4 sm:gap-6 mt-4 md:mt-0">
+          {/* <div className="flex gap-4 sm:gap-6 mt-4 md:mt-0">
             <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors duration-300 text-sm sm:text-base">
               Privacy Policy
             </Link>
             <Link href="/terms" className="text-gray-400 hover:text-white transition-colors duration-300 text-sm sm:text-base">
               Terms of Service
             </Link>
+          </div> */}
+          <div className="mt-4 md:mt-0 md:ml-6 text-gray-500 text-sm sm:text-base flex items-center">
+            Powered by&nbsp;
+            <a
+              href="https://nexalogics.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-red-900 transition-colors duration-300 font-semibold"
+            >
+              Nexalogics
+            </a>
           </div>
         </div>
       </div>

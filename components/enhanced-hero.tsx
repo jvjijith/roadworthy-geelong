@@ -33,7 +33,7 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
       image: "/images/hero-2.jpg",
     },
     {
-      title: "Specialized EV Services",
+      title: "EV Services",
       subtitle: "Expert maintenance for electric vehicles",
       image: "/images/hero-3.jpg",
     },
@@ -205,6 +205,8 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
                 <p className="text-xs text-white/70">Call Us</p>
                 <a href="tel:0352705676" className="hover:text-red-400 transition-colors">
                   03 5270 5676
+                </a> | <a href="tel:0490 090 995" className="hover:text-red-400 transition-colors">
+                  0490 090 995
                 </a>
               </div>
             </div>
@@ -251,7 +253,7 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
               </div>
               <div>
                 <p className="text-xs text-white/70">Opening Hours</p>
-                <span>Mon-Fri: 9:00 AM - 5:00 PM | Sat: 9:00 AM - 5:00 PM</span>
+                <span>Mon-Fri: 9:00 AM - 5:00 PM | Sat: 9:00 AM - 2:00 PM</span>
               </div>
             </div>
           </div>
