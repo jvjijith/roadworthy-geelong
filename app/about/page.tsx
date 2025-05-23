@@ -257,7 +257,7 @@ export default function AboutPage() {
             <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
               <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter sm:text-4xl text-red-900 mb-3 sm:mb-4">Our Values</h2>
               <p className="text-gray-600 text-sm sm:text-base">
-                At Roadworthy Geelong, our values guide everything we do. We're committed to providing exceptional
+                At GCS Autocare Grovedale, our values guide everything we do. We're committed to providing exceptional
                 service with integrity, expertise, and a customer-first approach.
               </p>
             </div>
@@ -412,7 +412,7 @@ export default function AboutPage() {
                 Ready to Experience the Difference?
               </h2>
               <p className="text-base sm:text-lg md:text-xl text-white/80 mb-6 sm:mb-8">
-                Book your vehicle inspection or service today and see why Roadworthy Geelong is the trusted choice for
+                Book your vehicle inspection or service today and see why GCS Autocare Grovedale is the trusted choice for
                 vehicle care in Geelong.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

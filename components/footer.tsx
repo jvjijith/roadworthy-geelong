@@ -282,7 +282,7 @@ export default function Footer() {
           <div className="mt-4 md:mt-0 md:ml-6 text-gray-500 text-sm sm:text-base flex items-center">
             Powered by&nbsp;
             <a
-              href="https://nexalogics.com"
+              href="https://Nexalogics.com.au"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-900 transition-colors duration-300 font-semibold"

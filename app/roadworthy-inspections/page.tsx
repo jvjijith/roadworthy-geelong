@@ -636,6 +636,9 @@ export default function RoadworthyInspectionsPage() {
             <div className="flex items-center text-sm text-gray-600">
               <Phone className="mr-2 h-4 w-4" /> 03 5270 5676
             </div>
+            <div className="flex items-center text-sm text-gray-600">
+              <Phone className="mr-2 h-4 w-4" /> 0490 090 995
+            </div>
           </div>
           <Button className="w-full mt-4 bg-red-900 hover:bg-red-800 group relative overflow-hidden" asChild>
             <a href="https://goo.gl/maps/1JmxYbQG8JLkwvSS6" target="_blank" rel="noopener noreferrer">
