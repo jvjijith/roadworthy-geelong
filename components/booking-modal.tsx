@@ -46,7 +46,7 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            className="relative z-10 w-full max-w-xl max-h-[calc(100vh-4rem)] sm:max-h-[90vh] overflow-auto bg-white rounded-xl sm:rounded-2xl shadow-2xl"
+            className="relative z-10 w-full max-w-xl max-h-[75vh] sm:max-h-[90vh] overflow-auto bg-white rounded-xl sm:rounded-2xl shadow-2xl"
           >
             <div className="sticky top-0 z-20 bg-gradient-to-r from-red-900 to-red-800 p-3 sm:p-6 text-white rounded-t-xl sm:rounded-t-2xl">
               <div className="flex items-center justify-between">
