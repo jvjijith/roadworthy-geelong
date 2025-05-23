@@ -130,31 +130,31 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 sm:space-y-4">
               <li>
-                <Link href="/services/roadworthy" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
+                <Link href="/roadworthy-inspections" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
                   <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 bg-red-900 rounded-full mr-2 transform transition-all duration-300 group-hover:scale-150"></span>
                   Roadworthy Inspection
                 </Link>
               </li>
               <li>
-                <Link href="/services/mechanical" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
+                <Link href="/services" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
                   <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 bg-red-900 rounded-full mr-2 transform transition-all duration-300 group-hover:scale-150"></span>
                   Mechanical Services
                 </Link>
               </li>
               <li>
-                <Link href="/services/logbook" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
+                <Link href="/services" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
                   <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 bg-red-900 rounded-full mr-2 transform transition-all duration-300 group-hover:scale-150"></span>
                   Logbook Service
                 </Link>
               </li>
               <li>
-                <Link href="/services/ac" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
+                <Link href="/services" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
                   <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 bg-red-900 rounded-full mr-2 transform transition-all duration-300 group-hover:scale-150"></span>
                   Car AC Regas
                 </Link>
               </li>
               <li>
-                <Link href="/services/ev" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
+                <Link href="/services" className="text-gray-300 hover:text-white flex items-center group text-sm sm:text-base">
                   <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 bg-red-900 rounded-full mr-2 transform transition-all duration-300 group-hover:scale-150"></span>
                   EV Services
                 </Link>
