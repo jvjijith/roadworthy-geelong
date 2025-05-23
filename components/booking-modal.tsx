@@ -33,7 +33,7 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
   return (
     <AnimatePresence>
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-start sm:items-center justify-center p-4 pt-20 sm:pt-4">
+        <div className="fixed inset-0 z-50 flex items-start sm:items-center justify-center p-2 sm:p-4 pt-16 sm:pt-4">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -46,9 +46,9 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            className="relative z-10 w-full max-w-xl max-h-[calc(100vh-6rem)] sm:max-h-[90vh] overflow-auto bg-white rounded-xl sm:rounded-2xl shadow-2xl"
+            className="relative z-10 w-full max-w-xl max-h-[calc(100vh-4rem)] sm:max-h-[90vh] overflow-auto bg-white rounded-xl sm:rounded-2xl shadow-2xl"
           >
-            <div className="sticky top-0 z-20 bg-gradient-to-r from-red-900 to-red-800 p-4 sm:p-6 text-white rounded-t-xl sm:rounded-t-2xl">
+            <div className="sticky top-0 z-20 bg-gradient-to-r from-red-900 to-red-800 p-3 sm:p-6 text-white rounded-t-xl sm:rounded-t-2xl">
               <div className="flex items-center justify-between">
                 <h3 className="text-lg sm:text-xl font-bold">Book Your Service</h3>
                 <button
@@ -62,7 +62,7 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
                 Fill out the form below and we'll get back to you shortly
               </p>
             </div>
-            <div className="p-4 sm:p-6">
+            <div className="p-3 sm:p-6">
               <BookingForm onComplete={onClose} />
             </div>
           </motion.div>
