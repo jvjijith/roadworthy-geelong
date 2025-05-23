@@ -62,7 +62,7 @@ export function ServiceModal({ isOpen, onClose, service, onBookNow }: ServiceMod
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            className="relative z-10 w-full max-w-4xl max-h-[90vh] overflow-auto bg-white rounded-2xl shadow-2xl"
+            className="relative z-10 w-full max-w-4xl max-h-[90vh] overflow-auto bg-white rounded-2xl shadow-2xl mt-16 md:mt-0"
           >
             <div className="relative h-64 md:h-80 overflow-hidden rounded-t-2xl">
               <Image src={service.image || "/images/workshop.jpg"} alt={service.title} fill className="object-cover" />
