@@ -226,6 +226,9 @@ export function ModernNav() {
                 <a href="tel:0352705676" className="hover:text-white transition-colors duration-300">
                   03 5270 5676
                 </a>
+                <a href="tel:0490090995" className="hover:text-white transition-colors duration-300">
+                0490 090 995
+                </a>
                 <a
                   href="mailto:gcsautocaregrovedale@gmail.com"
                   className="hover:text-white transition-colors duration-300"

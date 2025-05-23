@@ -207,7 +207,7 @@ export default function AboutPage() {
                 <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter sm:text-4xl text-red-900 mb-4 sm:mb-6">Our Story</h2>
                 <div className="space-y-3 sm:space-y-4 text-gray-600">
                   <p>
-                    Roadworthy Geelong was founded in 2008 with a simple mission: to provide honest, reliable, and
+                    GCS Autocare Grovedale was founded in 2008 with a simple mission: to provide honest, reliable, and
                     professional vehicle inspection and mechanical services to the Geelong community.
                   </p>
                   <p>

@@ -26,7 +26,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3 sm:gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/share/15Pw4kr5Ty/?mibextid=wwXIfr"
                 className="w-8 h-8 sm:w-10 sm:h-10 bg-white/10 rounded-full flex items-center justify-center text-white hover:bg-red-900 transition-colors duration-300"
               >
                 <svg
@@ -263,7 +263,7 @@ export default function Footer() {
                   <circle cx="12" cy="12" r="10"></circle>
                   <polyline points="12 6 12 12 16 14"></polyline>
                 </svg>
-                <span>Mon-Fri: 9am-5pm | Sat: 9am-2pm</span>
+                <span>Mon-Fri: 9am-5pm | Sat: 9am-12pm</span>
               </li>
             </ul>
           </div>

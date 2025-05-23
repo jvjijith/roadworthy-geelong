@@ -510,10 +510,10 @@ export default function Home() {
           <p className="mb-4">4/32 Essington St, Grovedale VIC 3216</p>
           <div className="space-y-2">
             <div className="flex items-center text-sm text-gray-600">
-              <Clock className="mr-2 h-4 w-4" /> Mon-Fri: 8am-5pm
+              <Clock className="mr-2 h-4 w-4" /> Mon-Fri: 9AM-5pm
             </div>
             <div className="flex items-center text-sm text-gray-600">
-              <Clock className="mr-2 h-4 w-4" /> Sat: 8am-12pm
+              <Clock className="mr-2 h-4 w-4" /> Sat: 9AM-12pm
             </div>
             <div className="flex items-center text-sm text-gray-600">
               <Phone className="mr-2 h-4 w-4" /> 03 5270 5676

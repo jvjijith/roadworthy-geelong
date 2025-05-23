@@ -184,7 +184,7 @@ export default function ContactPage() {
           <div className="text-white/70 text-[10px] sm:text-xs md:text-sm">Response Time</div>
         </div>
         <div className="text-center">
-          <div className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold text-white mb-0 sm:mb-1">2</div>
+          <div className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold text-white mb-0 sm:mb-1">1</div>
           <div className="text-white/70 text-[10px] sm:text-xs md:text-sm">Locations</div>
         </div>
         <div className="text-center">
@@ -292,8 +292,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-lg mb-1">Business Hours</h3>
-                      <p className="text-gray-600 mb-1">Monday - Friday: 8:00 AM - 5:00 PM</p>
-                      <p className="text-gray-600">Saturday: 8:00 AM - 12:00 PM</p>
+                      <p className="text-gray-600 mb-1">Monday - Friday: 9:00 AM - 5:00 PM</p>
+                      <p className="text-gray-600">Saturday: 9:00 AM - 12:00 PM, Prior booking recommended</p>
                       <p className="text-gray-600">Sunday: Closed</p>
                     </div>
                   </div>
@@ -454,10 +454,10 @@ export default function ContactPage() {
           <p className="mb-4">4/32 Essington St, Grovedale VIC 3216</p>
           <div className="space-y-2">
             <div className="flex items-center text-sm text-gray-600">
-              <Clock className="mr-2 h-4 w-4" /> Mon-Fri: 8am-5pm
+              <Clock className="mr-2 h-4 w-4" /> Mon-Fri: 9AM-5pm
             </div>
             <div className="flex items-center text-sm text-gray-600">
-              <Clock className="mr-2 h-4 w-4" /> Sat: 8am-12pm
+              <Clock className="mr-2 h-4 w-4" /> Sat: 9AM-12pm
             </div>
             <div className="flex items-center text-sm text-gray-600">
               <Phone className="mr-2 h-4 w-4" /> 03 5270 5676
