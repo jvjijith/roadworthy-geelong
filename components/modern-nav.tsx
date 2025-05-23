@@ -111,19 +111,19 @@ export function ModernNav() {
           >
             <Link href="/" className="flex items-center gap-2 z-[100]">
               <div
-                className={cn(
-                  "w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center transition-all duration-300",
-                  isScrolled ? "bg-red-900" : "bg-white",
-                )}
-              >
-                <Image
-                  src="/images/logo.png"
-                  alt="GCS Autocare Grovedale Logo"
-                  width={40}
-                  height={40}
-                  className="w-7 h-7 sm:w-8 sm:h-8 object-contain"
-                />
-              </div>
+  className={cn(
+    "w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center transition-all duration-300",
+    isScrolled ? "bg-red-900" : "bg-white",
+  )}
+>
+  <Image
+  src="/images/logo.png"
+  alt="GCS Autocare Grovedale Logo"
+  width={40}
+  height={40}
+  className="w-full h-full sm:w-12 sm:h-12 object-contain"
+/>
+</div>
               <div className="flex flex-col">
                 <span
                   className={cn(
