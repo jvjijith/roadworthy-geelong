@@ -521,6 +521,9 @@ export default function RoadworthyInspectionsPage() {
                       <p className="text-gray-600">
                         <a href="tel:0352705676" className="hover:underline">
                           03 5270 5676
+                        </a><br/>
+                        <a href="tel:0490090995" className="hover:underline">
+                          0490 090 995
                         </a>
                       </p>
                     </div>
@@ -566,6 +569,9 @@ export default function RoadworthyInspectionsPage() {
                 <p className="text-gray-600 mb-4">Call us directly for immediate assistance</p>
                 <a href="tel:0352705676" className="text-red-900 font-medium hover:underline">
                   03 5270 5676
+                </a>
+                <a href="tel:0490090995" className="text-red-900 font-medium hover:underline">
+                  0490 090 995
                 </a>
               </div>
             </ScrollReveal>
@@ -641,7 +647,7 @@ export default function RoadworthyInspectionsPage() {
             </div>
           </div>
           <Button className="w-full mt-4 bg-red-900 hover:bg-red-800 group relative overflow-hidden" asChild>
-            <a href="https://goo.gl/maps/1JmxYbQG8JLkwvSS6" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.google.com/maps/place/GCS+Autocare+Grovedale/@-38.1994723,144.3426708,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad41310ffbe65bb:0x74100d88591872de!8m2!3d-38.1994723!4d144.3452457!16s%2Fg%2F11wg95cc95?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
               <span className="relative z-10 flex items-center">
                 Get Directions
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
