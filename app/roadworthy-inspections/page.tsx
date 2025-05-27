@@ -606,7 +606,7 @@ export default function RoadworthyInspectionsPage() {
                 <p className="text-gray-600 mb-4">Our business hours</p>
                 <div className="text-red-900 font-medium">
                   <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-                  <p>Saturday: 9:00 AM - 5:00 PM</p>
+                  <p>Saturday: 9:00 AM - 2:00 PM</p>
                   <p>Sunday: Closed</p>
                 </div>
               </div>
