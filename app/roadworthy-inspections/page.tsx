@@ -637,7 +637,7 @@ export default function RoadworthyInspectionsPage() {
               <Clock className="mr-2 h-4 w-4" /> Mon-Fri: 9:00 AM - 5:00 PM
             </div>
             <div className="flex items-center text-sm text-gray-600">
-              <Clock className="mr-2 h-4 w-4" /> Sat: 9:00 AM - 5:00 PM
+              <Clock className="mr-2 h-4 w-4" /> Sat: 9:00 AM - 2:00 PM
             </div>
             <div className="flex items-center text-sm text-gray-600">
               <Phone className="mr-2 h-4 w-4" /> 03 5270 5676
