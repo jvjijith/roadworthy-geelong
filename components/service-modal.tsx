@@ -56,6 +56,7 @@ export function ServiceModal({ isOpen, onClose, service, onBookNow }: ServiceMod
             transition={{ duration: 0.3 }}
             className="absolute inset-0 bg-black/60 backdrop-blur-sm"
             onClick={onClose}
+
           />
           <motion.div
             initial={{ opacity: 0, scale: 0.9, y: 20 }}
